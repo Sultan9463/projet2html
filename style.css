@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,30 +9,35 @@ body{
 
 
 }
-.conteneur{
-width: 1000px;
+
+.conteneur {
+    width: 1000px;
 }
-.entete{
+
+.entete {
     display: flex;
     width: 100%;
 }
 
-.titre{
+.titre {
     width: 45%;
     /* background-color: red; */
 }
-.titre h1{
+
+.titre h1 {
     color: #3d0a4e;
-    font-size:  2rem;
+    font-size: 2rem;
     font-weight: bold;
     width: 80%;
 }
-.titre p{
+
+.titre p {
     width: 340px;
     color: #777;
     margin-top: -8px;
 }
-.etoiles{
+
+.etoiles {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -40,17 +45,21 @@ width: 1000px;
     margin-top: 15px;
 }
 
-.star1:hover, .star2:hover, .star3:hover{
+.star1:hover,
+.star2:hover,
+.star3:hover {
     background-color: #dbdada;
 }
 
-.colton:hover, .irene:hover, .anne:hover {
+.colton:hover,
+.irene:hover,
+.anne:hover {
     background-color: #8f33ad;
 }
 
-.star1{
+.star1 {
     display: flex;
-    background-color:#F7F3F7;
+    background-color: #F7F3F7;
     width: 95%;
     height: 39px;
     border-radius: 10px;
@@ -58,7 +67,7 @@ width: 1000px;
     margin-left: 20px;
 }
 
-.star2{
+.star2 {
     display: flex;
     background-color: #F7F3F7;
     width: 95%;
@@ -68,7 +77,7 @@ width: 1000px;
     margin-left: 10px;
 }
 
-.star3{
+.star3 {
     display: flex;
     background-color: #F7F3F7;
     width: 95%;
@@ -78,15 +87,17 @@ width: 1000px;
     /* margin-top: 10px; */
 }
 
-span{
+span {
     margin-left: 10px;
 }
-.Stars{
+
+.Stars {
     margin-left: 10px;
 }
+
 /* ---------------------------------------------------- */
 
-.colton{
+.colton {
     background-color: #4b0a63;
     /* width: 90%; */
     border-radius: 10px;
@@ -97,8 +108,8 @@ span{
 }
 
 
-.irene{
-    background-color:#4b0a63;
+.irene {
+    background-color: #4b0a63;
     /* width: 90%; */
     border-radius: 10px;
     color: white;
@@ -107,7 +118,7 @@ span{
     padding: 7px;
 }
 
-.anne{
+.anne {
     background-color: #4b0a63;
     /* width: 100%; */
     border-radius: 10px;
@@ -118,34 +129,35 @@ span{
     padding: 7px;
 }
 
-.users1{
-    padding:9px;
+.users1 {
+    padding: 9px;
 }
 
-.smith{
-    width: 35%;
+.smith {
+    width: 45%;
     margin-left: 60px;
     margin-top: -60px;
     color: white;
 }
 
-img{
+img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-left: 10px;
 }
 
-.smith h3{
+.smith h3 {
     width: 100%;
     font-size: 1.1rem;
 }
-.buyer{
+
+.buyer {
     margin-top: -15px;
     color: #c9a2db;
 }
 
-.corps{
+.corps {
     display: flex;
     gap: 10px;
 }
@@ -155,117 +167,113 @@ img{
 
 
 @media (max-width: 768px) {
-/* media titre */
-    .titre{
+
+    /* media titre */
+    .titre {
         width: 100%;
         text-align: center;
         background-color: white;
     }
 
-    .titre h1{
-    color: #3d0a4e;
-    font-size:  2rem;
-    width: 100%;
-    font-weight: bold;
+    .titre h1 {
+        color: #3d0a4e;
+        font-size: 2rem;
+        width: 100%;
+        font-weight: bold;
     }
-    .titre p{
+
+    .titre p {
         text-align: center;
         width: 100%;
         color: #777;
         margin-top: -8px;
     }
 
-    .entete{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    .entete {
+        /* display: flex; */
+        flex-direction: column;
+        width: 100%;
     }
 
     /* media etoile */
 
-    .etoiles{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    margin-top: 15px;
+    .etoiles {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        margin-top: 40px;
     }
 
-    .star1, .star2,.star3{
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    height: 50px;
-    border-radius: 10px;
-    align-items: center;
-    margin: auto;
+    .star1,
+    .star2,
+    .star3 {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 50px;
+        border-radius: 10px;
+        align-items: center;
+        margin: auto;
     }
 
-    .corps{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
+    .corps {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
     }
 
-    .colton{
-    background-color: #3d0a4e;
-    width: 50%;
-    border-radius: 10px;
-    color: white;
-    font-size: 0.95rem;
-    font-weight: normal;
-    margin: auto;
+    .colton {
+        background-color: #3d0a4e;
+        width: 50%;
+        border-radius: 10px;
+        color: white;
+        font-size: 0.95rem;
+        font-weight: normal;
+        margin: auto;
     }
 
 
-    .irene{
-    background-color: #3d0a4e;
-    width: 50%;
-    border-radius: 10px;
-    color: white;
-    font-size: 0.95rem;
-    font-weight: normal;
-    margin: auto;
+    .irene {
+        background-color: #3d0a4e;
+        width: 50%;
+        border-radius: 10px;
+        color: white;
+        font-size: 0.95rem;
+        font-weight: normal;
+        margin: auto;
     }
 
-    .anne{
-    background-color: #3d0a4e;
-    width: 50%;
-    border-radius: 10px;
-    color: white;
-    font-size: 0.95rem;
-    font-weight: normal;
-    margin-top: 10px;
-    margin: auto;
+    .anne {
+        background-color: #3d0a4e;
+        width: 50%;
+        border-radius: 10px;
+        color: white;
+        font-size: 0.95rem;
+        font-weight: normal;
+        margin-top: 10px;
+        margin: auto;
     }
 
-    .conteneur2{
+    .conteneur2 {
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
+}
 
-    /* .star2 {
-        display: flex;
-        flex-direction: column;
-        background-color: aquamarine;
-        width: 95%;
-        height: 39px;
-        border-radius: 10px;
-        align-items: center;
-        margin: auto;
+@media (max-width: 425px) {
+
+       .colton, .irene, .anne {
+        width: 90%;
+    }
+    .conteneur{
+    width: 425px;
+    }
+    .buyer{
+        width: 100%;
     }
 
-    .star3{
-        display: flex;
-        flex-direction: column;
-        background-color: aquamarine;
-        width: 95%;
-        height: 39px;
-        border-radius: 10px;
-        align-items: center;
-        margin: auto;
-    } */
-
-}
+    }
